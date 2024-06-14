@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+
+functions:
+  starbot:
+    lang: node18
+    handler: ./starbot
+    image: paperdrip/starbot:latest
+
