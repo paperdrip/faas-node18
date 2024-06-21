@@ -6,5 +6,5 @@ functions:
   starbot:
     lang: node18
     handler: ./starbot
-    image: paperdrip/starbot:latest
+    image: ghcr.io/paperdrip/starbot:latest
 
